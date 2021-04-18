@@ -7,8 +7,13 @@
             "email": "dylanakhawais@gmail.com"
         }
     ],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Scriptle\\Laragraph\\": "src/"
+        }
+    },
     "require": {
         "webonyx/graphql-php": "^14.6",
         "php": "^8.0",
