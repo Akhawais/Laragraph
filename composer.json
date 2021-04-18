@@ -8,6 +8,7 @@
         }
     ],
     "version": "0.0.1",
+    "license": "MIT",
     "require": {
         "webonyx/graphql-php": "^14.6",
         "php": "^8.0",
