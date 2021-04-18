@@ -1,0 +1,22 @@
+{
+    "name": "scriptle/laragraph",
+    "description": "graphql-php wrapper for Laravel using PHP8 attributes",
+    "authors": [
+        {
+            "name": "Dylan Akhawais",
+            "email": "dylanakhawais@gmail.com"
+        }
+    ],
+    "require": {
+        "webonyx/graphql-php": "^14.6",
+        "php": "^8.0",
+        "ext-json": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Scriptle\\Laragraph\\LaragraphServiceProvider"
+            ],
+        }
+    }
+}
