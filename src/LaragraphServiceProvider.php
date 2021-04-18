@@ -25,7 +25,7 @@ class LaragraphServiceProvider extends ServiceProvider
                 ->prefix(config('laragraph.prefix'))
                 ->group(function () {
                     $schemas = config('laragraph.schemas');
-                    foreach ($schemas as $name => $schema) {
+                    foreach ($schemas ?? [] as $name => $schema) {
                         Route::any($name, 'Scriptle\\Laragraph\\LaragraphController@ingest')
                             ->middleware($schema['middleware']);
                     }
