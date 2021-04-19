@@ -12,7 +12,7 @@
 
 Publish the config file:
 
-`php artisan vendor:publish --provider=\Scriptle\Laragraph\LaragraphServiceProvider`
+`php artisan vendor:publish --provider=Scriptle\\Laragraph\\LaragraphServiceProvider`
 
 Amend the schemas to your preference.
 
